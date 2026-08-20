@@ -1,0 +1,15 @@
+stage,seconds
+III: trajectory populations,162.4
+VII: finite-key scaling,162.3
+IV: horizon-risk benchmark,114.6
+II: security-distance geometry,26.9
+VI: viability and SRR,22.6
+VIII: decoy-state generalization,10.6
+IX: runtime performance,5.8
+I: landscape and critical manifolds,2.8
+IV: episode alarms,1.8
+III: example trajectories,1.5
+V: H1 matched-margin,0.6
+IV: probability calibration,0.4
+0: parameter table,0.4
+V: horizon robustness,0.3

@@ -1,0 +1,7 @@
+quantity,value
+update latency (single link),"8.1 us median, 28.4 us p99"
+amortized cost (fleet),0.39 us/link at K=10000
+links per core @ 1 block/s,"2,541,221"
+persistent state per link,448 B
+memory for 10^4 links,4.3 MB
+online vs exact distance,median 0.47% rel. err

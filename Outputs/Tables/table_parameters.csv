@@ -1,0 +1,15 @@
+group,parameter,value
+Channel,depolarizing strength $d$,"[0, 0.25]"
+Channel,dephasing strength $\phi$,"[0, 0.25]"
+Channel,intercept--resend fraction $a$,"[0, 1.0]"
+Finite key,sifted block size $N$,2e+05 (default); 1e4--1e7 in sweeps
+Finite key,test fraction $t$,0.25
+Finite key,EC inefficiency $f_{EC}$,1.16
+Finite key,"$\varepsilon_{sec}$, $\varepsilon_{cor}$","1e-09, 1e-15"
+Dynamics,trajectory length $T$,400 blocks
+Dynamics,drift families / trajectories,7 / 630
+Prediction,horizon $H$,"30 blocks (robustness: 15, 60)"
+Prediction,EWMA $\lambda$; drift window $W$; burn-in,0.15; 40; 20 blocks
+Alarms,sustained exceedance; FA budgets,"3 blocks; 1%, 5%, 10%"
+Viability,$u_{max}$; ambient drift; $H_c$; $\Delta$,"(0.0, 0.0015, 0.015); (0.0012, 0.0001, 0.002); 60; 20.0"
+Decoy,"$\mu_s$, $\nu$; $Y_0$; pulses/intensity","0.48, 0.1; 6e-05; 1e+07"
